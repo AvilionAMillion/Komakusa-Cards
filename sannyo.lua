@@ -3,7 +3,7 @@
 --- MOD_ID: SANNYO
 --- MOD_AUTHOR: [AvilionAMillion]
 --- MOD_DESCRIPTION: Adds jokers and cards themed around the Touhou Project
---- VERSION: alpha-1.1
+--- VERSION: 1.1-alpha
 
 ------------- MOD CODE ------------------
 sendDebugMessage('Komakusa Cards Initializing')
@@ -173,7 +173,7 @@ SMODS.Joker {  -- Baka
         text = {'{C:chips}+#1#{} Chips.',
 		'{C:inactive}Baka.{}'}
     },
-    config = {extra = {chips = 1}},
+    config = {extra = {chips = 9}},
     rarity = 1,
     pos = {x = 4,y = 0},
     atlas = 'jokeratlas',
@@ -201,7 +201,7 @@ SMODS.Joker {  -- Teh Strongest Jimbo
         text = {'{C:chips}+#1#{} Chips.',
 		'{C:inactive}Baka?{}'}
     },
-    config = {extra = {chips = 1000}},
+    config = {extra = {chips = 999}},
     rarity = 3,
     pos = {x = 5,y = 0},
     atlas = 'jokeratlas',
